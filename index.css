@@ -6,7 +6,7 @@ body{
     width: 2000px;
     margin-left: auto;
     margin-right: auto;
-    border: thick rgb(221, 17, 17) solid;
+    /*border: thick rgb(221, 17, 17) solid;*/
 }
 .firstSection{
     background-color: #1F2937;
@@ -143,7 +143,7 @@ body{
 
 }
 .blueBox{
-    border: green solid 1px;
+    /*border: green solid 1px;*/
     margin-left: auto;
     margin-right: auto;
     width: 1400px;
@@ -155,6 +155,7 @@ body{
     padding-bottom: 40px;
     color: #f9faf8;
     font-size: 24px;
+    border-radius: 10px;
 }
 .blueBoxLeftTop{
     font-weight: 800;
