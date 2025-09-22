@@ -3,7 +3,7 @@ body{
     background-color: black;
 }
 .webPage{
-    width: 1500px;
+    width: 2000px;
     margin-left: auto;
     margin-right: auto;
     border: thick rgb(221, 17, 17) solid;
@@ -24,6 +24,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 .headerTopLeft{
     font-weight: 800;
@@ -36,7 +38,7 @@ body{
 .headerBottom{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
 }
 .headerBottomLeft{
     display: flex;
@@ -53,10 +55,10 @@ body{
     display: flex;
     align-items: center;
     background-color: gray;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
-button{
+.firstSectionButton{
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px 30px;
@@ -67,9 +69,7 @@ button{
 
 .secondSection{
     background-color: #eff2f5;
-}
-.secondSectionContent{
-
+    padding-bottom: 75px;
 }
 .boxSection{
     display: flex;
@@ -78,4 +78,112 @@ button{
 .boxSectionTop{
     display: flex;
     justify-content: center;
+}
+.boxTopic{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.boxContent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.smallBox{
+    width: 170px;
+    height: 170px;
+    border: solid 5px #3882f6;
+    border-radius: 10px;
+}
+.boxDescription{
+    text-align: center;
+    width: 170px;
+}
+
+.thirdSection{
+    background-color: #d8dadb;
+}
+.thirdSectionContent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.textContentTop{
+    display: flex;
+    justify-content: center;
+
+}
+.textContent{
+    
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    flex-wrap: wrap;
+    width: 870px;
+}
+.textContentBottom{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textSignature{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: 600;
+}
+.fourthSection{
+    background-color: #E5e7eb;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.blueBox{
+    border: green solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.blueBoxLeftTop{
+    font-weight: 800;
+}
+.fourthSectionButton{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 24px;
+    border: #f9faf8 solid thin;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.fifthSection{
+    background-color: #1F2937;
+}
+.fifthSectionContent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.footerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer{
+    color: #f9faf8;
+    font-size: 24px;
 }
